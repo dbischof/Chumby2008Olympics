@@ -1,0 +1,12 @@
+2008 Olympic Games Medal Totals
+For Chumby devices
+
+This widget was originally released on August 10, 2008.
+
+Displays the medal totals from the 2008 Olympic Games in Beijing, China. Drag the leader board to see all the countries with medals.
+
+The widget originally updated in real time as results were released.  Totals are now hardcoded an the widget no longer performs web service requests.
+
+http://www.chumby.com/guide/widget/2008%20Olympic%20Games%20Medal%20Totals
+
+(Code was written in FlashDevelop.)

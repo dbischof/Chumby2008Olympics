@@ -1,0 +1,23 @@
+﻿<medals msgid="124" locid="NJ" timestamp="20:20:21 08/09/2008" rsc="ME0000000" asofdateyear="2008" asofdatemonth="08" asofdateday="09" asofmonthname="August" asofdayname="Saturday" asoftime="20:20">
+<medalssummary>
+<country noc="CHN" totalgold="2" totalsilver="0" totalbronze="0" totalmedals="2" goldrank="1" goldorder="1" totalrank="=2" totalorder="2"/>
+<country noc="USA" totalgold="1" totalsilver="1" totalbronze="1" totalmedals="3" goldrank="2" goldorder="2" totalrank="1" totalorder="1"/>
+<country noc="KOR" totalgold="1" totalsilver="1" totalbronze="0" totalmedals="2" goldrank="3" goldorder="3" totalrank="=2" totalorder="3"/>
+<country noc="CZE" totalgold="1" totalsilver="0" totalbronze="0" totalmedals="1" goldrank="=4" goldorder="4" totalrank="=4" totalorder="4"/>
+<country noc="ESP" totalgold="1" totalsilver="0" totalbronze="0" totalmedals="1" goldrank="=4" goldorder="5" totalrank="=4" totalorder="5"/>
+<country noc="ROU" totalgold="1" totalsilver="0" totalbronze="0" totalmedals="1" goldrank="=4" goldorder="6" totalrank="=4" totalorder="6"/>
+<country noc="AUT" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=7" goldorder="7" totalrank="=4" totalorder="7"/>
+<country noc="CUB" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=7" goldorder="8" totalrank="=4" totalorder="8"/>
+<country noc="ITA" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=7" goldorder="9" totalrank="=4" totalorder="9"/>
+<country noc="RUS" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=7" goldorder="10" totalrank="=4" totalorder="10"/>
+<country noc="TUR" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=7" goldorder="11" totalrank="=4" totalorder="11"/>
+<country noc="ARG" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=12" goldorder="12" totalrank="=4" totalorder="12"/>
+<country noc="CRO" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=12" goldorder="13" totalrank="=4" totalorder="13"/>
+<country noc="JPN" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=12" goldorder="14" totalrank="=4" totalorder="14"/>
+<country noc="NED" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=12" goldorder="15" totalrank="=4" totalorder="15"/>
+<country noc="PRK" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=12" goldorder="16" totalrank="=4" totalorder="16"/>
+<country noc="SUI" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=12" goldorder="17" totalrank="=4" totalorder="17"/>
+<country noc="TPE" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=12" goldorder="18" totalrank="=4" totalorder="18"/>
+<country noc="UZB" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=12" goldorder="19" totalrank="=4" totalorder="19"/>
+</medalssummary>
+</medals>

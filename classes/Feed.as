@@ -1,0 +1,95 @@
+class Feed {
+
+	public static var xml:String = 
+'<medals msgid="41983" locid="NJ" timestamp="17:13:59 08/24/2008" rsc="ME0000000" asofdateyear="2008" asofdatemonth="08" asofdateday="24" asofmonthname="August" asofdayname="Sunday" asoftime="17:13">' +
+'<medalssummary>' +
+'<country noc="CHN" totalgold="51" totalsilver="21" totalbronze="28" totalmedals="100" goldrank="1" goldorder="1" totalrank="2" totalorder="2"/>' +
+'<country noc="USA" totalgold="36" totalsilver="38" totalbronze="36" totalmedals="110" goldrank="2" goldorder="2" totalrank="1" totalorder="1"/>' +
+'<country noc="RUS" totalgold="23" totalsilver="21" totalbronze="28" totalmedals="72" goldrank="3" goldorder="3" totalrank="3" totalorder="3"/>' +
+'<country noc="GBR" totalgold="19" totalsilver="13" totalbronze="15" totalmedals="47" goldrank="4" goldorder="4" totalrank="4" totalorder="4"/>' +
+'<country noc="GER" totalgold="16" totalsilver="10" totalbronze="15" totalmedals="41" goldrank="5" goldorder="5" totalrank="6" totalorder="6"/>' +
+'<country noc="AUS" totalgold="14" totalsilver="15" totalbronze="17" totalmedals="46" goldrank="6" goldorder="6" totalrank="5" totalorder="5"/>' +
+'<country noc="KOR" totalgold="13" totalsilver="10" totalbronze="8" totalmedals="31" goldrank="7" goldorder="7" totalrank="8" totalorder="8"/>' +
+'<country noc="JPN" totalgold="9" totalsilver="6" totalbronze="10" totalmedals="25" goldrank="8" goldorder="8" totalrank="11" totalorder="11"/>' +
+'<country noc="ITA" totalgold="8" totalsilver="10" totalbronze="10" totalmedals="28" goldrank="9" goldorder="9" totalrank="9" totalorder="9"/>' +
+'<country noc="FRA" totalgold="7" totalsilver="16" totalbronze="17" totalmedals="40" goldrank="10" goldorder="10" totalrank="7" totalorder="7"/>' +
+'<country noc="UKR" totalgold="7" totalsilver="5" totalbronze="15" totalmedals="27" goldrank="11" goldorder="11" totalrank="10" totalorder="10"/>' +
+'<country noc="NED" totalgold="7" totalsilver="5" totalbronze="4" totalmedals="16" goldrank="12" goldorder="12" totalrank="16" totalorder="16"/>' +
+'<country noc="JAM" totalgold="6" totalsilver="3" totalbronze="2" totalmedals="11" goldrank="13" goldorder="13" totalrank="20" totalorder="20"/>' +
+'<country noc="ESP" totalgold="5" totalsilver="10" totalbronze="3" totalmedals="18" goldrank="14" goldorder="14" totalrank="=14" totalorder="14"/>' +
+'<country noc="KEN" totalgold="5" totalsilver="5" totalbronze="4" totalmedals="14" goldrank="15" goldorder="15" totalrank="18" totalorder="18"/>' +
+'<country noc="BLR" totalgold="4" totalsilver="5" totalbronze="10" totalmedals="19" goldrank="16" goldorder="16" totalrank="13" totalorder="13"/>' +
+'<country noc="ROU" totalgold="4" totalsilver="1" totalbronze="3" totalmedals="8" goldrank="17" goldorder="17" totalrank="=25" totalorder="25"/>' +
+'<country noc="ETH" totalgold="4" totalsilver="1" totalbronze="2" totalmedals="7" goldrank="18" goldorder="18" totalrank="=27" totalorder="27"/>' +
+'<country noc="CAN" totalgold="3" totalsilver="9" totalbronze="6" totalmedals="18" goldrank="19" goldorder="19" totalrank="=14" totalorder="15"/>' +
+'<country noc="POL" totalgold="3" totalsilver="6" totalbronze="1" totalmedals="10" goldrank="20" goldorder="20" totalrank="=21" totalorder="21"/>' +
+'<country noc="HUN" totalgold="3" totalsilver="5" totalbronze="2" totalmedals="10" goldrank="=21" goldorder="21" totalrank="=21" totalorder="23"/>' +
+'<country noc="NOR" totalgold="3" totalsilver="5" totalbronze="2" totalmedals="10" goldrank="=21" goldorder="22" totalrank="=21" totalorder="22"/>' +
+'<country noc="BRA" totalgold="3" totalsilver="4" totalbronze="8" totalmedals="15" goldrank="23" goldorder="23" totalrank="17" totalorder="17"/>' +
+'<country noc="CZE" totalgold="3" totalsilver="3" totalbronze="0" totalmedals="6" goldrank="24" goldorder="24" totalrank="=30" totalorder="30"/>' +
+'<country noc="SVK" totalgold="3" totalsilver="2" totalbronze="1" totalmedals="6" goldrank="25" goldorder="25" totalrank="=30" totalorder="31"/>' +
+'<country noc="NZL" totalgold="3" totalsilver="1" totalbronze="5" totalmedals="9" goldrank="26" goldorder="26" totalrank="24" totalorder="24"/>' +
+'<country noc="GEO" totalgold="3" totalsilver="0" totalbronze="3" totalmedals="6" goldrank="27" goldorder="27" totalrank="=30" totalorder="32"/>' +
+'<country noc="CUB" totalgold="2" totalsilver="11" totalbronze="11" totalmedals="24" goldrank="28" goldorder="28" totalrank="12" totalorder="12"/>' +
+'<country noc="KAZ" totalgold="2" totalsilver="4" totalbronze="7" totalmedals="13" goldrank="29" goldorder="29" totalrank="19" totalorder="19"/>' +
+'<country noc="DEN" totalgold="2" totalsilver="2" totalbronze="3" totalmedals="7" goldrank="30" goldorder="30" totalrank="=27" totalorder="28"/>' +
+'<country noc="MGL" totalgold="2" totalsilver="2" totalbronze="0" totalmedals="4" goldrank="=31" goldorder="31" totalrank="=44" totalorder="44"/>' +
+'<country noc="THA" totalgold="2" totalsilver="2" totalbronze="0" totalmedals="4" goldrank="=31" goldorder="32" totalrank="=44" totalorder="45"/>' +
+'<country noc="PRK" totalgold="2" totalsilver="1" totalbronze="3" totalmedals="6" goldrank="33" goldorder="33" totalrank="=30" totalorder="33"/>' +
+'<country noc="ARG" totalgold="2" totalsilver="0" totalbronze="4" totalmedals="6" goldrank="=34" goldorder="34" totalrank="=30" totalorder="34"/>' +
+'<country noc="SUI" totalgold="2" totalsilver="0" totalbronze="4" totalmedals="6" goldrank="=34" goldorder="35" totalrank="=30" totalorder="35"/>' +
+'<country noc="MEX" totalgold="2" totalsilver="0" totalbronze="1" totalmedals="3" goldrank="36" goldorder="36" totalrank="=51" totalorder="51"/>' +
+'<country noc="TUR" totalgold="1" totalsilver="4" totalbronze="3" totalmedals="8" goldrank="37" goldorder="37" totalrank="=25" totalorder="26"/>' +
+'<country noc="ZIM" totalgold="1" totalsilver="3" totalbronze="0" totalmedals="4" goldrank="38" goldorder="38" totalrank="=44" totalorder="46"/>' +
+'<country noc="AZE" totalgold="1" totalsilver="2" totalbronze="4" totalmedals="7" goldrank="39" goldorder="39" totalrank="=27" totalorder="29"/>' +
+'<country noc="UZB" totalgold="1" totalsilver="2" totalbronze="3" totalmedals="6" goldrank="40" goldorder="40" totalrank="=30" totalorder="36"/>' +
+'<country noc="SLO" totalgold="1" totalsilver="2" totalbronze="2" totalmedals="5" goldrank="41" goldorder="41" totalrank="=38" totalorder="38"/>' +
+'<country noc="BUL" totalgold="1" totalsilver="1" totalbronze="3" totalmedals="5" goldrank="=42" goldorder="42" totalrank="=38" totalorder="39"/>' +
+'<country noc="INA" totalgold="1" totalsilver="1" totalbronze="3" totalmedals="5" goldrank="=42" goldorder="43" totalrank="=38" totalorder="40"/>' +
+'<country noc="FIN" totalgold="1" totalsilver="1" totalbronze="2" totalmedals="4" goldrank="44" goldorder="44" totalrank="=44" totalorder="47"/>' +
+'<country noc="LAT" totalgold="1" totalsilver="1" totalbronze="1" totalmedals="3" goldrank="45" goldorder="45" totalrank="=51" totalorder="52"/>' +
+'<country noc="BEL" totalgold="1" totalsilver="1" totalbronze="0" totalmedals="2" goldrank="=46" goldorder="46" totalrank="=57" totalorder="57"/>' +
+'<country noc="DOM" totalgold="1" totalsilver="1" totalbronze="0" totalmedals="2" goldrank="=46" goldorder="47" totalrank="=57" totalorder="58"/>' +
+'<country noc="EST" totalgold="1" totalsilver="1" totalbronze="0" totalmedals="2" goldrank="=46" goldorder="48" totalrank="=57" totalorder="59"/>' +
+'<country noc="POR" totalgold="1" totalsilver="1" totalbronze="0" totalmedals="2" goldrank="=46" goldorder="49" totalrank="=57" totalorder="60"/>' +
+'<country noc="IND" totalgold="1" totalsilver="0" totalbronze="2" totalmedals="3" goldrank="50" goldorder="50" totalrank="=51" totalorder="53"/>' +
+'<country noc="IRI" totalgold="1" totalsilver="0" totalbronze="1" totalmedals="2" goldrank="51" goldorder="51" totalrank="=57" totalorder="61"/>' +
+'<country noc="BRN" totalgold="1" totalsilver="0" totalbronze="0" totalmedals="1" goldrank="=52" goldorder="52" totalrank="=69" totalorder="69"/>' +
+'<country noc="CMR" totalgold="1" totalsilver="0" totalbronze="0" totalmedals="1" goldrank="=52" goldorder="53" totalrank="=69" totalorder="70"/>' +
+'<country noc="PAN" totalgold="1" totalsilver="0" totalbronze="0" totalmedals="1" goldrank="=52" goldorder="54" totalrank="=69" totalorder="71"/>' +
+'<country noc="TUN" totalgold="1" totalsilver="0" totalbronze="0" totalmedals="1" goldrank="=52" goldorder="55" totalrank="=69" totalorder="72"/>' +
+'<country noc="SWE" totalgold="0" totalsilver="4" totalbronze="1" totalmedals="5" goldrank="56" goldorder="56" totalrank="=38" totalorder="41"/>' +
+'<country noc="CRO" totalgold="0" totalsilver="2" totalbronze="3" totalmedals="5" goldrank="=57" goldorder="57" totalrank="=38" totalorder="42"/>' +
+'<country noc="LTU" totalgold="0" totalsilver="2" totalbronze="3" totalmedals="5" goldrank="=57" goldorder="58" totalrank="=38" totalorder="43"/>' +
+'<country noc="GRE" totalgold="0" totalsilver="2" totalbronze="2" totalmedals="4" goldrank="59" goldorder="59" totalrank="=44" totalorder="48"/>' +
+'<country noc="TRI" totalgold="0" totalsilver="2" totalbronze="0" totalmedals="2" goldrank="60" goldorder="60" totalrank="=57" totalorder="62"/>' +
+'<country noc="NGR" totalgold="0" totalsilver="1" totalbronze="3" totalmedals="4" goldrank="61" goldorder="61" totalrank="=44" totalorder="49"/>' +
+'<country noc="AUT" totalgold="0" totalsilver="1" totalbronze="2" totalmedals="3" goldrank="=62" goldorder="62" totalrank="=51" totalorder="54"/>' +
+'<country noc="IRL" totalgold="0" totalsilver="1" totalbronze="2" totalmedals="3" goldrank="=62" goldorder="63" totalrank="=51" totalorder="55"/>' +
+'<country noc="SRB" totalgold="0" totalsilver="1" totalbronze="2" totalmedals="3" goldrank="=62" goldorder="64" totalrank="=51" totalorder="56"/>' +
+'<country noc="ALG" totalgold="0" totalsilver="1" totalbronze="1" totalmedals="2" goldrank="=65" goldorder="65" totalrank="=57" totalorder="63"/>' +
+'<country noc="BAH" totalgold="0" totalsilver="1" totalbronze="1" totalmedals="2" goldrank="=65" goldorder="66" totalrank="=57" totalorder="64"/>' +
+'<country noc="COL" totalgold="0" totalsilver="1" totalbronze="1" totalmedals="2" goldrank="=65" goldorder="67" totalrank="=57" totalorder="65"/>' +
+'<country noc="KGZ" totalgold="0" totalsilver="1" totalbronze="1" totalmedals="2" goldrank="=65" goldorder="68" totalrank="=57" totalorder="66"/>' +
+'<country noc="MAR" totalgold="0" totalsilver="1" totalbronze="1" totalmedals="2" goldrank="=65" goldorder="69" totalrank="=57" totalorder="67"/>' +
+'<country noc="TJK" totalgold="0" totalsilver="1" totalbronze="1" totalmedals="2" goldrank="=65" goldorder="70" totalrank="=57" totalorder="68"/>' +
+'<country noc="CHI" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=71" goldorder="71" totalrank="=69" totalorder="73"/>' +
+'<country noc="ECU" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=71" goldorder="72" totalrank="=69" totalorder="74"/>' +
+'<country noc="ISL" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=71" goldorder="73" totalrank="=69" totalorder="75"/>' +
+'<country noc="MAS" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=71" goldorder="74" totalrank="=69" totalorder="76"/>' +
+'<country noc="RSA" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=71" goldorder="75" totalrank="=69" totalorder="77"/>' +
+'<country noc="SIN" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=71" goldorder="76" totalrank="=69" totalorder="78"/>' +
+'<country noc="SUD" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=71" goldorder="77" totalrank="=69" totalorder="79"/>' +
+'<country noc="VIE" totalgold="0" totalsilver="1" totalbronze="0" totalmedals="1" goldrank="=71" goldorder="78" totalrank="=69" totalorder="80"/>' +
+'<country noc="ARM" totalgold="0" totalsilver="0" totalbronze="6" totalmedals="6" goldrank="79" goldorder="79" totalrank="=30" totalorder="37"/>' +
+'<country noc="TPE" totalgold="0" totalsilver="0" totalbronze="4" totalmedals="4" goldrank="80" goldorder="80" totalrank="=44" totalorder="50"/>' +
+'<country noc="AFG" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=81" goldorder="81" totalrank="=69" totalorder="81"/>' +
+'<country noc="EGY" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=81" goldorder="82" totalrank="=69" totalorder="82"/>' +
+'<country noc="ISR" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=81" goldorder="83" totalrank="=69" totalorder="83"/>' +
+'<country noc="MDA" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=81" goldorder="84" totalrank="=69" totalorder="84"/>' +
+'<country noc="MRI" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=81" goldorder="85" totalrank="=69" totalorder="85"/>' +
+'<country noc="TOG" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=81" goldorder="86" totalrank="=69" totalorder="86"/>' +
+'<country noc="VEN" totalgold="0" totalsilver="0" totalbronze="1" totalmedals="1" goldrank="=81" goldorder="87" totalrank="=69" totalorder="87"/>' +
+'</medalssummary>';
+
+}

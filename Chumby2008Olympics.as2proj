@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <!-- Output SWF options -->
+  <output>
+    <movie disabled="False" />
+    <movie input="" />
+    <movie path="Chumby2008Olympics.swf" />
+    <movie fps="21" />
+    <movie width="320" />
+    <movie height="240" />
+    <movie version="8" />
+    <movie background="#FFFFFF" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="classes" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option verbose="False" />
+    <option strict="False" />
+    <option infer="False" />
+    <option useMain="True" />
+    <option useMX="False" />
+    <option warnUnusedImports="False" />
+    <option traceMode="FlashViewer" />
+    <option traceFunction="" />
+    <option libraryPrefix="" />
+    <option excludeFile="" />
+    <option groupClasses="False" />
+    <option frame="1" />
+    <option keep="True" />
+  </build>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="classes\Chumby2008Olympics.as" />
+    <compile path="classes\Feed.as" />
+  </compileTargets>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <asset path="library\texture_top.png" />
+    <asset path="library\texture_center.png" />
+    <asset path="library\texture_bottom.png" />
+    <asset path="library\flags\USA.png" />
+    <asset path="library\flags\AFG.png" />
+    <asset path="library\flags\ALG.png" />
+    <asset path="library\flags\ARG.png" />
+    <asset path="library\flags\ARM.png" />
+    <asset path="library\flags\AUS.png" />
+    <asset path="library\flags\AUT.png" />
+    <asset path="library\flags\AZE.png" />
+    <asset path="library\flags\BAH.png" />
+    <asset path="library\flags\BEL.png" />
+    <asset path="library\flags\BLR.png" />
+    <asset path="library\flags\BRA.png" />
+    <asset path="library\flags\BRN.png" />
+    <asset path="library\flags\BUL.png" />
+    <asset path="library\flags\CAN.png" />
+    <asset path="library\flags\CHI.png" />
+    <asset path="library\flags\CHN.png" />
+    <asset path="library\flags\CMR.png" />
+    <asset path="library\flags\COL.png" />
+    <asset path="library\flags\CRO.png" />
+    <asset path="library\flags\CUB.png" />
+    <asset path="library\flags\CZE.png" />
+    <asset path="library\flags\DEN.png" />
+    <asset path="library\flags\DOM.png" />
+    <asset path="library\flags\ECU.png" />
+    <asset path="library\flags\EGY.png" />
+    <asset path="library\flags\ESP.png" />
+    <asset path="library\flags\EST.png" />
+    <asset path="library\flags\ETH.png" />
+    <asset path="library\flags\FIN.png" />
+    <asset path="library\flags\FRA.png" />
+    <asset path="library\flags\GBR.png" />
+    <asset path="library\flags\GEO.png" />
+    <asset path="library\flags\GER.png" />
+    <asset path="library\flags\GRE.png" />
+    <asset path="library\flags\HUN.png" />
+    <asset path="library\flags\INA.png" />
+    <asset path="library\flags\IND.png" />
+    <asset path="library\flags\IRI.png" />
+    <asset path="library\flags\IRL.png" />
+    <asset path="library\flags\ISL.png" />
+    <asset path="library\flags\ISR.png" />
+    <asset path="library\flags\ITA.png" />
+    <asset path="library\flags\JAM.png" />
+    <asset path="library\flags\JPN.png" />
+    <asset path="library\flags\NGR.png" />
+    <asset path="library\flags\NED.png" />
+    <asset path="library\flags\MRI.png" />
+    <asset path="library\flags\MGL.png" />
+    <asset path="library\flags\MEX.png" />
+    <asset path="library\flags\MDA.png" />
+    <asset path="library\flags\MAS.png" />
+    <asset path="library\flags\MAR.png" />
+    <asset path="library\flags\LTU.png" />
+    <asset path="library\flags\LAT.png" />
+    <asset path="library\flags\KOR.png" />
+    <asset path="library\flags\KGZ.png" />
+    <asset path="library\flags\KEN.png" />
+    <asset path="library\flags\KAZ.png" />
+    <asset path="library\flags\NOR.png" />
+    <asset path="library\flags\NZL.png" />
+    <asset path="library\flags\PAN.png" />
+    <asset path="library\flags\POL.png" />
+    <asset path="library\flags\POR.png" />
+    <asset path="library\flags\PRK.png" />
+    <asset path="library\flags\ROU.png" />
+    <asset path="library\flags\RSA.png" />
+    <asset path="library\flags\RUS.png" />
+    <asset path="library\flags\SIN.png" />
+    <asset path="library\flags\SRB.png" />
+    <asset path="library\flags\SLO.png" />
+    <asset path="library\flags\SUD.png" />
+    <asset path="library\flags\SUI.png" />
+    <asset path="library\flags\SVK.png" />
+    <asset path="library\flags\SWE.png" />
+    <asset path="library\flags\THA.png" />
+    <asset path="library\flags\TJK.png" />
+    <asset path="library\flags\TOG.png" />
+    <asset path="library\flags\TPE.png" />
+    <asset path="library\flags\TRI.png" />
+    <asset path="library\flags\TUN.png" />
+    <asset path="library\flags\TUR.png" />
+    <asset path="library\flags\UZB.png" />
+    <asset path="library\flags\VEN.png" />
+    <asset path="library\flags\VIE.png" />
+    <asset path="library\flags\ZIM.png" />
+    <asset path="library\flags\UKR.png" />
+  </library>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <!-- example: <hidden path="..." /> -->
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="True" />
+    <option testMovie="Default" />
+  </options>
+</project>
